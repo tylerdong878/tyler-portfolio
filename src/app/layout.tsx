@@ -17,6 +17,11 @@ export const metadata: Metadata = {
   description: "Portfolio of Tyler Dong",
   keywords: ["Software Developer", "Portfolio", "Tyler Dong"],
   authors: [{ name: "Tyler Dong" }],
+  icons: {
+    icon: '/favicon.png',
+    shortcut: '/favicon.png',
+    apple: '/favicon.png',
+  },
   openGraph: {
     title: "Tyler Dong | Portfolio",
     description: "Portfolio of Tyler Dong",
