@@ -81,5 +81,5 @@ export const socialLinks = {
   github: 'https://github.com/tylerdong878',
   linkedin: 'https://linkedin.com/in/tylerdong',
   twitter: 'https://twitter.com/tylerdong',
-  email: 'tyler.dong@example.com'
+  email: 'tylerdong878@gmail.com'
 };

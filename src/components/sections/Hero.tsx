@@ -17,7 +17,7 @@ const Hero = () => {
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.2 }}
-            className="text-5xl md:text-7xl font-bold mb-6 bg-linear-to-r from-blue-400 via-purple-400 to-blue-400 bg-clip-text text-transparent"
+            className="text-5xl md:text-7xl font-medium mb-6 text-blue-300"
           >
             Tyler Dong
           </motion.h1>
@@ -26,22 +26,20 @@ const Hero = () => {
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.4 }}
-            className="text-xl md:text-2xl text-gray-300 mb-8"
+            className="text-xl md:text-2xl text-blue-200 mb-8"
           >
-            <span className="font-semibold text-white">Software Developer</span>
-            <span className="mx-3 text-gray-400">•</span>
-            <span className="font-semibold text-white">Engineer</span>
-            <span className="mx-3 text-gray-400">•</span>
-            <span className="font-semibold text-white">something</span>
+            <span className="font-normal text-blue-400">Software Developer</span>
+            <span className="mx-3 text-blue-500">•</span>
+            <span className="font-normal text-blue-400">Engineer</span>
           </motion.div>
           
           <motion.p
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.6 }}
-            className="text-lg text-gray-400 mb-12 max-w-2xl mx-auto"
+            className="text-lg text-blue-200 mb-12 max-w-2xl mx-auto"
           >
-            passionate.
+            SDE @ Philips | CECS @ Northeastern
           </motion.p>
           
           <motion.div
