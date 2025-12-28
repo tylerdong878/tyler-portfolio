@@ -1,7 +1,7 @@
 'use client';
 
 import { motion } from 'framer-motion';
-import { Github, ExternalLink } from 'lucide-react';
+import { Github, ExternalLink, Trophy, Youtube } from 'lucide-react';
 import { projects } from '@/data/constants';
 import { Project } from '@/types';
 
@@ -14,6 +14,15 @@ const ProjectCard = ({ project, index }: { project: Project; index: number }) =>
       viewport={{ once: true }}
       className="bg-gray-800/50 backdrop-blur-sm border border-gray-700 rounded-lg overflow-hidden hover:border-gray-600/50 transition-all duration-300 hover:scale-105 group"
     >
+      {project.image && (
+        <div className="relative h-48 overflow-hidden bg-gray-900/20 p-4">
+          <img 
+            src={project.image} 
+            alt={project.title}
+            className="w-full h-full object-contain group-hover:scale-110 transition-transform duration-500"
+          />
+        </div>
+      )}
       <div className="p-6">
         <div className="flex justify-between items-start mb-4">
           <h3 className="text-xl font-semibold text-white group-hover:text-gray-300 transition-colors duration-200">
@@ -59,6 +68,30 @@ const ProjectCard = ({ project, index }: { project: Project; index: number }) =>
               <span className="text-sm">Code</span>
             </a>
           )}
+          {project.devpostUrl && (
+            <a
+              href={project.devpostUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center text-gray-400 hover:text-white transition-colors duration-200"
+              aria-label="View on Devpost"
+            >
+              <Trophy size={18} className="mr-1" />
+              <span className="text-sm">Devpost</span>
+            </a>
+          )}
+          {project.youtubeUrl && (
+            <a
+              href={project.youtubeUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center text-gray-400 hover:text-white transition-colors duration-200"
+              aria-label="View on YouTube"
+            >
+              <Youtube size={18} className="mr-1" />
+              <span className="text-sm">Demo</span>
+            </a>
+          )}
           {project.liveUrl && (
             <a
               href={project.liveUrl}
@@ -68,7 +101,7 @@ const ProjectCard = ({ project, index }: { project: Project; index: number }) =>
               aria-label="View live project"
             >
               <ExternalLink size={18} className="mr-1" />
-              <span className="text-sm">Live Demo</span>
+              <span className="text-sm">Live</span>
             </a>
           )}
         </div>

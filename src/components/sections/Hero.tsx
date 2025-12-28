@@ -29,8 +29,10 @@ const Hero = () => {
             className="text-xl md:text-2xl text-blue-200 mb-8"
           >
             <span className="font-normal text-blue-400">Software Developer</span>
-            <span className="mx-3 text-blue-500">•</span>
+            <span className="mx-3 text-blue-700">•</span>
             <span className="font-normal text-blue-400">Engineer</span>
+            <span className="mx-3 text-blue-700">•</span>
+            <span className="font-normal text-blue-400">Problem Solver</span>
           </motion.div>
           
           <motion.p

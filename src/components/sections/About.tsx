@@ -56,20 +56,20 @@ const About = () => {
             viewport={{ once: true }}
           >
             <h3 className="text-2xl font-semibold text-white mb-6">
-              Building at the Intersection of Code and Finance
+              Building Cool Stuff
             </h3>
             
             <div className="space-y-4 text-gray-300">
               <p>
-                I'm an aspiring Software Developer.
+                I'm a Software Developer and Computer Engineering student at Northeastern University with a passion for building intelligent systems and automation tools.
               </p>
               
               <p>
-                Later.
+                My experience spans AI/ML engineering, fintech applications, and educational technology, with a focus on creating practical solutions that solve real-world problems.
               </p>
               
               <p>
-                Later.
+                Currently seeking opportunities to apply my technical skills in software development, machine learning, and system design while continuing to expand my knowledge in emerging technologies.
               </p>
             </div>
           </motion.div>

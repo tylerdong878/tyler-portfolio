@@ -6,28 +6,39 @@ import { Calendar, MapPin, Briefcase } from 'lucide-react';
 const Experience = () => {
   const experiences = [
     {
-      title: 'Software Developer',
+      title: 'Software Development Engineer Co-op',
       company: 'Philips',
-      location: 'Boston, MA',
-      period: '2024 - Present',
-      description: 'Full-stack development for healthcare technology solutions',
-      type: 'full-time'
+      location: 'Cambridge, MA',
+      period: 'Jan 2026 - Present',
+      description: 'TBD'
     },
     {
-      title: 'Software Engineering Intern',
-      company: 'FinTech Startup',
-      location: 'Remote',
-      period: '2023 - 2024',
-      description: 'Built scalable financial applications and APIs',
-      type: 'internship'
-    },
-    {
-      title: 'Teaching Assistant',
+      title: 'Teaching Assistant - Object-Oriented Programming',
       company: 'Northeastern University',
       location: 'Boston, MA',
-      period: '2022 - 2023',
-      description: 'Taught computer science concepts to undergraduate students',
-      type: 'education'
+      period: 'Sep 2025 - Present',
+      description: 'Lead lab and office hours, supporting 400+ students in OOP principles, MVC architecture, and design patterns.'
+    },
+    {
+      title: 'Teaching Assistant - Discrete Structures',
+      company: 'Northeastern University',
+      location: 'Boston, MA',
+      period: 'Jun 2025 - Aug 2025',
+      description: 'Supported 70+ students in graph theory, algorithm analysis, computational complexity, probability, and proof techniques.'
+    },
+    {
+      title: 'AI Automation Extern',
+      company: 'Outamation',
+      location: 'Remote',
+      period: 'May 2025 - Jul 2025',
+      description: 'Built AI-powered workflows using NLP and Computer Vision for document automation. Developed RAG system with LlamaIndex and Hugging Face embeddings. Benchmarked open-source LLMs for performance optimization.'
+    },
+    {
+      title: 'Data Research Intern',
+      company: 'Quarty Capital Advisors, LLC',
+      location: 'New York, NY',
+      period: 'Jun 2023 - Aug 2023',
+      description: 'Developed tools for financial data analysis. Organized financial instruments on a quantitative investment database.'
     }
   ];
 
@@ -98,17 +109,6 @@ const Experience = () => {
                   </div>
                   
                   <p className="text-gray-300 leading-relaxed">{exp.description}</p>
-                  
-                  <div className="mt-4">
-                    <span className={`inline-block px-3 py-1 rounded-full text-xs font-medium ${
-                      exp.type === 'full-time' ? 'bg-green-500/20 text-green-400 border border-green-500/30' :
-                      exp.type === 'internship' ? 'bg-blue-500/20 text-blue-400 border border-blue-500/30' :
-                      'bg-purple-500/20 text-purple-400 border border-purple-500/30'
-                    }`}>
-                      {exp.type === 'full-time' ? 'Full-time' :
-                       exp.type === 'internship' ? 'Internship' : 'Education'}
-                    </span>
-                  </div>
                 </motion.div>
 
                 {/* Timeline dot */}
