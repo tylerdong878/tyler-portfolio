@@ -61,7 +61,7 @@ const About = () => {
             
             <div className="space-y-4 text-gray-300">
               <p>
-                I'm a Software Developer and Computer Engineering student at Northeastern University with a passion for building intelligent systems and automation tools.
+                I'm a Software Developer and Computer Engineering student at Northeastern University with a passion for building.
               </p>
               
               <p>
