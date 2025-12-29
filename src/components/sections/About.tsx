@@ -61,15 +61,11 @@ const About = () => {
             
             <div className="space-y-4 text-gray-300">
               <p>
-                I'm a Software Developer and Computer Engineering student at Northeastern University with a passion for building.
+                I'm a Computer Science and Computer Engineering student at Northeastern University with a passion for building.
               </p>
               
               <p>
-                My experience spans AI/ML engineering, fintech applications, and educational technology, with a focus on creating practical solutions that solve real-world problems.
-              </p>
-              
-              <p>
-                Currently seeking opportunities to apply my technical skills in software development, machine learning, and system design while continuing to expand my knowledge in emerging technologies.
+                I'm Currently seeking summer internshipopportunities to apply my technical skills while continuing to expand my knowledge in emerging technologies.
               </p>
             </div>
           </motion.div>
