@@ -65,7 +65,7 @@ const About = () => {
               </p>
               
               <p>
-                I'm Currently seeking summer internshipopportunities to apply my technical skills while continuing to expand my knowledge in emerging technologies.
+                I'm Currently seeking summer internship opportunities to apply my technical skills while continuing to expand my knowledge in emerging technologies.
               </p>
             </div>
           </motion.div>
