@@ -1,7 +1,7 @@
 'use client';
 
 import { motion } from 'framer-motion';
-import { Mail, Github, Linkedin, Send } from 'lucide-react';
+import { Mail, Github, Linkedin, Trophy, Send } from 'lucide-react';
 import { socialLinks } from '@/data/constants';
 import { useState } from 'react';
 
@@ -49,7 +49,7 @@ const Contact = () => {
           </h2>
           <div className="w-24 h-1 bg-linear-to-r from-blue-500 to-purple-500 mx-auto rounded-full" />
           <p className="text-gray-300 mt-6 max-w-2xl mx-auto">
-            I'm always interested in hearing about new opportunities, exciting projects, or just having a chat about technology and finance.
+            I'm always interested in hearing about new opportunities, exciting projects, or just having a chat.
           </p>
         </motion.div>
 
@@ -140,7 +140,7 @@ const Contact = () => {
             <div>
               <h3 className="text-2xl font-semibold text-white mb-6">Let's Connect</h3>
               <p className="text-gray-300 mb-8">
-                Feel free to reach out through any of these channels. I'm always open to discussing new ideas, opportunities, or collaborations.
+                Feel free to reach out through any of these channels.
               </p>
             </div>
 
@@ -191,6 +191,23 @@ const Contact = () => {
                     LinkedIn
                   </p>
                   <p className="text-gray-400 text-sm">Let's connect professionally</p>
+                </div>
+              </a>
+
+              <a
+                href={socialLinks.devpost}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center p-4 bg-gray-800/50 backdrop-blur-sm border border-gray-700 rounded-lg hover:border-gray-600/50 transition-all duration-300 group"
+              >
+                <div className="p-3 bg-gray-700/30 rounded-lg mr-4">
+                  <Trophy size={24} className="text-gray-400" />
+                </div>
+                <div>
+                  <p className="text-white font-medium group-hover:text-gray-300 transition-colors duration-200">
+                    Devpost
+                  </p>
+                  <p className="text-gray-400 text-sm">Check out my hackathon projects</p>
                 </div>
               </a>
             </div>

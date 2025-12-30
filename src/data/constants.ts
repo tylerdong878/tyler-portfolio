@@ -155,5 +155,6 @@ export const socialLinks = {
   github: 'https://github.com/tylerdong878',
   linkedin: 'https://linkedin.com/in/tylerdong',
   twitter: 'https://twitter.com/tylerdong',
+  devpost: 'https://devpost.com/dong-ty',
   email: 'tylerdong878@gmail.com'
 };
